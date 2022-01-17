@@ -1,8 +1,8 @@
 body {
-    background: #000;
+    background-image: url(./img/background.jpg);
+    background-size: cover;
 }
 
-h1 {
-    text-align: center;
-    color: rgb(72, 72, 255);
+.icon-club2 {
+    color: #ff9933
 }
