@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #3c4043;
+    color: #fff;
+}
+
+/* Background */
+.background {
+    height: 88vh;
+}
+
+.background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Header */
+.logo {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 115px;
+    height: 25px;
+    filter: invert(100%);
+}
+
+.btn {
+    background-color: #fff;
+    margin-right: 15px;
+    padding: 7px;
+    border-radius: 16px;
+    border: 0;
+}
+
+.icon-club2 {
+    font-size: 18px;
+    color: #ff9933;
+}
+
+/* Main */
+.text {
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+}
+
+.title {
+    margin-bottom: 25px;
+    font-size: 43px;
+    font-weight: bold;
+    line-height: 55px;
+}
+
+.description {
+    font-size: 12px;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.btn-main {
+    width: 245px;
+    padding: 14px;
+    text-transform: uppercase;
+    font-size: 11px;
+    background-color: #4385f4;
+    color: #fff;
+    border: 1px solid #4385f4;
+    border-radius: 5px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 14vh;
+    right: 4vw;
+}
+
+.social-title {
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.btn-social {
+    margin-left: 10px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #fff;
+    color: #3c4043;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    margin: 1vh 3vw;
+}
+
+.copy {
+    max-width: 60vw;
+    margin-right: 2vw;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+.payments {
+    max-width: 40vw;
+    margin-left: 2vw;
+}
+
+.payments img {
+    height: 20px;
+    margin: 2px;
+}
+
+@media screen and (max-width: 767px) {
+    
+    /* Header */
+    .logo {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .btn {
+        background-color: transparent;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    .icon-club2 {
+        font-size: 28px;
+    }
+
+    /* Main */
+    .title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .description {
+        font-size: 10px;
+        line-height: 22px;
+    }
+
+    .social {
+        flex-direction: column;
+        justify-content: center;
+        right: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .social-title {
+        margin-right: 0;
+        margin-bottom: 17px;
+    }
+
+    /* Footer */
+    footer {
+        flex-direction: column;
+        height: auto;
+        margin: 2vh 3vw;
+    }
+
+    .copy {
+        text-align: center;
+        max-width: 100vw;
+        margin-right: 0;
+        margin-bottom: 10px;
+        line-height: 13px;
+        font-size: 8px;
+    }
+
+    .payments {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 100vw;
+        margin-left: 0;
+    }
+}
