@@ -158,10 +158,6 @@ footer {
         line-height: 22px;
     }
 
-    .btn-main {
-        display: none;
-    }
-
     .social {
         flex-direction: column;
         justify-content: center;
