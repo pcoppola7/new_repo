@@ -5,16 +5,18 @@
       var bannerHeight = $(".js--bannerScroll").outerHeight();
 
   
-      if (scroll > bannerHeight) {
+      if (scroll > (bannerHeight - 80)) {
           $(".header").addClass("new-header");
           $(".btn-text").addClass("new-btn-text");
-          $(".logo img").addClass("new-img");
+          $(".logo-one-img").addClass("logo-white");
+          $(".logo-two-img").removeClass("logo-gray");
           $(".header-mobile").addClass("new-header");
           $(".header-top > i").addClass("new-icon-mobile-u");
       } else {
           $(".header").removeClass("new-header");
           $(".btn-text").removeClass("new-btn-text");
-          $(".logo img").removeClass("new-img");
+          $(".logo-one-img").removeClass("logo-white");
+          $(".logo-two-img").addClass("logo-gray");
           $(".header-mobile").removeClass("new-header");
           $(".header-top > i").removeClass("new-icon-mobile-u");
       }

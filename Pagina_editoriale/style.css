@@ -59,7 +59,7 @@
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    padding: 10px 30px;
+    padding: 10px;
     z-index: 10;
 }
 
@@ -80,18 +80,19 @@
 
 .logo img {
     height: 25px;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
-.new-img {
-    padding: 6px 14px 6px;
-    background-color: #3c4043;
-    border-radius: 16px;
-    box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+.logo-gray {
+    display: none;
+}
+
+.logo-white {
+    display: none;
 }
 
 .shop .btn-blu {
-    margin-left: 25px;
+    margin-left: 15px;
     padding: 6px 14px 6px;
     font-size: 12px;
     font-weight: 700;
@@ -112,7 +113,7 @@
 .input-s {
     height: 45px;
     border-radius: 20px;
-    width: 27vw;
+    width: 26vw;
     padding: 0 15px;
     font-size: 14px;
 }
@@ -128,8 +129,10 @@
 .icon-search {
     position: absolute;
     top: 15px;
-    right: 15px;
+    right: 20px;
     color: #4385f4;
+    padding-left: 5px;
+    background-color: #fff;
 }
 
 /* Actions */
@@ -450,7 +453,7 @@
 
 /* ACCORDION */
 .accordion-u {
-    margin: 13vw 0;
+    margin: 13vw 0 100px;
 }
 
 .accordion-item-u {
@@ -501,6 +504,11 @@
 .accordion-item:last-of-type .accordion-button.collapsed,
 .accordion-item:first-of-type .accordion-button {
     border-radius: 20px;
+}
+
+/* NAVBAR MOBILE */
+.navbar-mobile-u {
+    display: none;
 }
 
 /* SCROLLBAR */
@@ -644,4 +652,104 @@
         height: auto;
         width: 100%;
     }
+
+    /* DELIVERY EXPRESS */
+    .d-express {
+        padding-bottom: 170px;
+    }
+
+    .d-express picture img {
+        top: -10%;
+    }
+
+    .express-title {
+        font-size: 25px;
+        padding-top: 270px;
+    }
+
+    /* SECTION THREE */
+    .form {
+        width: 40%;
+        padding-left: 5vw;
+    }
+
+    .form-title {
+        font-size: 18px;
+    }
+
+    .input-form {
+        padding: 10px 5px;
+        font-size: 15px;
+    }
+
+    .input-form.w-1 {
+        width: 260px;
+    }
+
+    .input-form.w-2 {
+        width: 275px;
+    }
+
+    .input-form.w-3 {
+        width: 170px;
+    }
+
+    .order-s3 {
+        margin-top: 370px;
+        padding-left: 0;
+    }
+
+    /* SECTION FOUR */
+    .flex-center {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .order-s4 {
+        padding-right: 25vw;
+    }
+
+    .flex-center picture {
+        padding: 5vw 0 0 0;
+    }
+
+    .flex-center picture img {
+        width: 44vw;
+    }
+
+    /* ACCORDION */
+    .accordion-title {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .accordion-description {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    /* NAVBAR MOBILE */
+    .navbar-mobile-u {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+        background-image: linear-gradient(to top, #f9f9f9 , transparent);
+    }
+
+    .btn-white-m {
+        font-size: 22px;
+    }
+
+    .btn-white-mc {
+        width: 55px;
+    }
+
+    .navbar-mobile-u i {
+        color: #3c4043;
+    }
+
+
 }
