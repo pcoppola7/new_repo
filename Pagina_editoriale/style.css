@@ -155,6 +155,10 @@
 }
 
 /* DELIVERY */
+.d-express {
+    position: relative;
+}
+
 .delivery {
     position: absolute;
     top: 25%;
@@ -207,8 +211,8 @@
 
 .modal-u-text {
     position: absolute;
-    top: 150px;
-    left: -60px;
+    top: 23%;
+    right: 44%;
     background-color: #fff;
     padding: 1vw 2vw;
     border-radius: 5px;
@@ -337,7 +341,7 @@
 .express-title {
     font-weight: 700;
     font-size: 40px;
-    padding-top: 120px;
+    padding-top: 13vw;
     padding-left: 8vw;
     width: 50%;
 }
@@ -456,6 +460,16 @@
     margin: 13vw 0 100px;
 }
 
+.collapse-u {
+    height: 270px;
+    overflow: hidden;
+}
+
+.overflow-u-text {
+    height: auto;
+    overflow: visible;
+}
+
 .accordion-item-u {
     border: 0;
 }
@@ -486,13 +500,20 @@
 }
 
 .accordion-button-u {
-    width: 150px;
-    height: 40px;
-    background-color: #fff !important;
-    box-shadow: 0 0 5px rgb(0 0 0 / 30%) !important;
-    padding: 0px 0 0 2.5rem;
-    color: #595d5f !important;
+    background-color: #fff;
+    border: 0;
+    box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+    padding: 5px 10px;
+    border-radius: 20px;
+    padding-left: 40px;
+    font-size: 15px;
     font-weight: 700;
+    position: relative;
+}
+
+.accordion-button-u::after {
+    content: '\e90e';
+    font-family: 'icomoonUnieuro';    
 }
 
 .accordion-button-u::after {
@@ -609,7 +630,7 @@
     }
 
     .card-u {
-        height: auto;
+        height: 100vh;
     }
 
     .s-text {
@@ -655,7 +676,7 @@
 
     /* DELIVERY EXPRESS */
     .d-express {
-        padding-bottom: 170px;
+        padding-bottom: 120px;
     }
 
     .d-express picture img {
@@ -664,7 +685,7 @@
 
     .express-title {
         font-size: 25px;
-        padding-top: 270px;
+        padding-top: 43vw;
     }
 
     /* SECTION THREE */

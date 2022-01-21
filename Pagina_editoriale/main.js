@@ -23,3 +23,9 @@
   });
       
   })( jQuery );
+
+  $(".accordion-button-u").click(function() {
+    
+    $("#collapseOne").toggleClass("overflow-u-text"); 
+
+  })
