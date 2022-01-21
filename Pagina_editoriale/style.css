@@ -457,11 +457,11 @@
 
 /* ACCORDION */
 .accordion-u {
-    margin: 13vw 0 100px;
+    margin: 13vw 0 0;
 }
 
 .collapse-u {
-    height: 270px;
+    height: 360px;
     overflow: hidden;
 }
 
@@ -497,6 +497,7 @@
     display: flex;
     justify-content: center;
     position: relative;
+    z-index: 11;
 }
 
 .accordion-button-u {
@@ -520,6 +521,15 @@
     position: absolute;
     left: 10px;
     color: #4385f4;
+}
+
+.accordion-item-u::after {
+    content: '';
+    height: 100px;
+    display: block;
+    position: relative;
+    top: -130px;
+    background-image: linear-gradient(to top, #fff, transparent);
 }
 
 .accordion-item:last-of-type .accordion-button.collapsed,
