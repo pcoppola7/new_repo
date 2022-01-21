@@ -146,6 +146,11 @@
     margin-right: 15px;
 }
 
+/* Header-mobile */
+.header-mobile {
+    display: none;
+}
+
 /* DELIVERY */
 .delivery {
     position: absolute;
@@ -158,6 +163,7 @@
 .title {
     text-align: center;
     margin-bottom: 40px;
+    font-weight: 700;
     font-size: 3.5vw;
 }
 
@@ -300,6 +306,11 @@
     font-weight: 400;
     line-height: 1.50;
     font-size: 18px;
+}
+
+/* IMAGE MOBILE */
+.picture-mobile-u {
+    display: none;
 }
 
 /* SECTION TWO */
@@ -503,4 +514,134 @@
  
 .o-img::-webkit-scrollbar-thumb {
     background: #999; 
+}
+
+/* MOBILE 767px IN GIU */
+@media screen and (max-width: 767px) {
+
+    /* HEADER */
+    .header {
+        display: none;
+    }
+
+    .header-mobile {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        z-index: 20;
+        padding-bottom: 15px;
+    }
+
+    .header-top {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .icon-mobile-u {
+        color: #fff;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .new-icon-mobile-u {
+        color: #3c4043;
+    }
+
+    .icon-mobile-u-2 {
+        font-size: 25px;
+    }
+
+    .logo-mobile-u {
+        text-decoration: none;
+        font-size: 30px;
+    }
+    
+    .logo img {
+        margin-left: 0;
+    }
+
+    .search {
+        padding: 0 10px;
+    }
+
+    .input-s {
+        width: 100%;
+    }
+
+    /* BANNER */
+    .banner {
+        position: relative;
+    }
+
+    /* DELIVERY */
+    .delivery {
+        width: 100%;
+        top: 50%;
+        left: 0;
+    }
+
+    .title {
+        font-size: 5.5vw;
+    }
+
+    .d-action img {
+        width: 9vw;
+    }
+
+    /* OPTION DELIVERY */
+    .menu {
+        display: none;
+    }
+
+    .o-text {
+        margin: 50px 0 50px 6vw;
+        font-weight: 700;
+    }
+
+    .card-u {
+        height: auto;
+    }
+
+    .s-text {
+        left: 50%;
+        transform: translate(-50px, -50px);
+        font-size: 27px;
+    }
+
+    /* SECTION ONE */
+    .order {
+        width: 100%;
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+
+    .order-number {
+        font-size: 15px;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+    }
+    
+    .order-title {
+        font-size: 25px;
+    }
+
+    .order-description {
+        font-size: 15px;
+    }
+
+    /* IMAGE MOBILE */
+    .picture-mobile-u {
+        display: block;
+        margin-top: 20vw;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .picture-mobile-u img {
+        height: auto;
+        width: 100%;
+    }
 }
