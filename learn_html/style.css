@@ -109,3 +109,7 @@ hr {
     color: green;
     font-weight: 700;
 }
+
+.hide {
+    display: none;
+}

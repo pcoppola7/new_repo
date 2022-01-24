@@ -1,17 +1,25 @@
 
-let active = false;
+let link = document.querySelectorAll('.article-link');
+let policy = document.getElementById('privacy-id');
+let policyContainer = document.querySelector('.privacy');
+
+link.forEach((e) => {
+    e.addEventListener('click', () => {
+        e.classList.toggle('green');
+    })
+});
 
 
-document.querySelectorAll('.article-link').addEventListener('click', (e) => {
 
-    console.log(e.target);
+
+
+if (localStorage.getItem("policy") === "true") {
+    policyContainer.classList.add('hide');
+};
+
+policy.addEventListener('click', () => {
+
+    policyContainer.classList.add('hide');
     
-    // console.log(document.querySelector('.article-link'));
-    // if (active === true) {
-    //     active = false;
-    //     document.querySelector('.article-link').classList.remove('green')
-    // } else {
-    //     active = true;
-    //     document.querySelector('.article-link').classList.add('green');
-    // }
+    localStorage.setItem("privacy", "true");
 })
