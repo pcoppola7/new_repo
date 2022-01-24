@@ -13,7 +13,7 @@ link.forEach((e) => {
 
 
 
-if (localStorage.getItem("policy") === "true") {
+if (localStorage.getItem("privacy") === "true") {
     policyContainer.classList.add('hide');
 };
 
