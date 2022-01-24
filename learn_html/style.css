@@ -64,7 +64,9 @@
 }
 
 .article-link {
-    color: red;
+    color: #8aaff1;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /* Footer */
@@ -77,10 +79,33 @@ hr {
     padding: 20px;
 }
 
+/* Privacy policy */
+.privacy {
+    background-color: #28404d;
+    padding: 30px;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.95;
+}
+
+.privacy a {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #fff;
+}
+
 /* RESPONSIVE */
 /* MOBILE < 767px */
 @media screen and (max-width: 767px) {
     .article {
         width: 100%;
     }
+}
+
+/* JS Classes */
+.green {
+    color: green;
+    font-weight: 700;
 }
