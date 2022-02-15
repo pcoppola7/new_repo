@@ -72,7 +72,11 @@ $(document).ready(function() {
     $('.fa-magnifying-glass').click(function() {
         $('.header-search').slideToggle();
     });
-    
+
+    $('.fa-xmark').click(function() {
+        $('.header-search').slideUp();
+    })
+
     // Slick Carousel
     $('.slick-carousel').slick({
         arrows: true,

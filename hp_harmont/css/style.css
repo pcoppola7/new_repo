@@ -161,9 +161,7 @@
     color: #1c355e;
 }
 
-.header-search > div::after {
-    font: var(--fa-font-solid);
-    content: "\f00d";
+.header-search .fa-xmark {
     position: absolute;
     top: 13px;
     z-index: 1;
@@ -236,4 +234,40 @@
     color: #fff;
     cursor: pointer;
     z-index: 1;
+}
+
+/* Collection */
+.hb-collection {
+    display: flex;
+    width: 95%;
+    margin: 30px auto;
+}
+
+.hb-collection .container {
+    width: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+.hb-collection .uomo {
+    padding-left: 20px;
+}
+
+.hb-collection .donna {
+    padding-right: 20px;
+}
+
+.hb-collection img {
+    width: 100%;
+}
+
+.hb-collection .text {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 45px;
+    text-align: center;
 }
