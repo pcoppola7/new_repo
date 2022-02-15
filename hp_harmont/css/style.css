@@ -214,7 +214,7 @@
     left: 49%
 }
 
-.fa-chevron-left {
+.hb-carousel .fa-chevron-left {
     position: absolute;
     top: 50%;
     left: 4%;
@@ -225,7 +225,7 @@
     z-index: 1;
 }
 
-.fa-chevron-right {
+.hb-carousel .fa-chevron-right {
     position: absolute;
     top: 50%;
     right: 4%;
@@ -270,4 +270,81 @@
     text-transform: uppercase;
     font-size: 45px;
     text-align: center;
+}
+
+/* Most Wanted */
+.hb-most-wanted {
+    margin-bottom: 30px;
+}
+
+.hb-most-wanted .title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    padding: 70px 0;
+    color: #002d53;
+}
+
+.hb-most-wanted .top,
+.hb-most-wanted .bottom {
+    border: 0;
+    height: 1px;
+    background-color: #ededed;
+}
+
+.most-wanted-carousel {
+    padding: 0 60px;
+}
+
+.most-wanted-item {
+    border-left: 1px solid #ededed;
+    padding: 40px 0;
+}
+
+.most-wanted-item img {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.most-wanted-item .item-title {
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #434343;
+    cursor: pointer;
+}
+
+.most-wanted-item .item-price {
+    text-align: center;
+    font-size: 14px;
+}
+
+.most-wanted-item .item-price .price {
+    color: #002d53;
+}
+
+.most-wanted-item .item-price .price-line-through {
+    text-decoration: line-through;
+}
+
+.hb-most-wanted .fa-chevron-left {
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.hb-most-wanted .fa-chevron-right {
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+    z-index: 1;
 }

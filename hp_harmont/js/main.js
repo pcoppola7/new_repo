@@ -85,4 +85,14 @@ $(document).ready(function() {
         autoplay: true,
         autoplaySpeed: 3000,
     });
+
+    // Slick Most Wanted 
+    $('.most-wanted-carousel').slick({
+        centerMode: true,
+        slidesToShow: 4,
+        centerPadding: '20px',
+        arrows: true,
+        prevArrow: '<i class="fa-solid fa-chevron-left"></i>',
+        nextArrow: '<i class="fa-solid fa-chevron-right"></i>',
+    })
 })

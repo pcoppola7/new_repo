@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'icomoonHB';
+  src:  url('fonts/icomoonHB.eot?klnjaj');
+  src:  url('fonts/icomoonHB.eot?klnjaj#iefix') format('embedded-opentype'),
+    url('fonts/icomoonHB.ttf?klnjaj') format('truetype'),
+    url('fonts/icomoonHB.woff?klnjaj') format('woff'),
+    url('fonts/icomoonHB.svg?klnjaj#icomoonHB') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoonHB' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bottom:before {
+  content: "\ea44";
+}
+.icon-left:before {
+  content: "\ea45";
+}
+.icon-right:before {
+  content: "\ea46";
+}
+.icon-top:before {
+  content: "\ea47";
+}
+.icon-customer:before {
+  content: "\ea48";
+}
+.icon-email:before {
+  content: "\ea49";
+}
+.icon-facebook:before {
+  content: "\ea4a";
+}
+.icon-menu2:before {
+  content: "\ea4b";
+}
+.icon-pinterest1:before {
+  content: "\ea4c";
+}
+.icon-search1:before {
+  content: "\ea4d";
+}
+.icon-shopping:before {
+  content: "\ea4e";
+}
+.icon-footerFacebook:before {
+  content: "\ea4f";
+}
+.icon-footerInstagram:before {
+  content: "\ea50";
+}
+.icon-footerTwitter:before {
+  content: "\ea51";
+}
+.icon-footerYoutube:before {
+  content: "\ea52";
+}
+.icon-storelocator:before {
+  content: "\ea53";
+}
+.icon-wechat:before {
+  content: "\ea54";
+}
+.icon-whatsapp:before {
+  content: "\ea55";
+}
+.icon-user:before {
+  content: "\ea56";
+}
+.icon-close1:before {
+  content: "\ea57";
+}
+.icon-grid3:before {
+  content: "\ea58";
+}
+.icon-grid4:before {
+  content: "\ea59";
+}
+.icon-book:before {
+  content: "\ea5a";
+}
+.icon-check1:before {
+  content: "\ea5b";
+}
+.icon-return:before {
+  content: "\ea5c";
+}
+.icon-smile:before {
+  content: "\ea5d";
+}
+.icon-user-checkout:before {
+  content: "\ea5e";
+}
+.icon-play1:before {
+  content: "\ea5f";
+}
+.icon-pause:before {
+  content: "\ea60";
+}
