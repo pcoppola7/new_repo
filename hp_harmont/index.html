@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HP Harmont & Blaine</title>
     <!-- STYLES -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <!-- FONTAWESOME -->
     <script src="https://kit.fontawesome.com/6cd43fed4f.js" crossorigin="anonymous"></script>
+    <!-- SLICK -->
+    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
 </head>
 <body>
 
@@ -26,11 +28,11 @@
                 <ul>
                     <li id="saldi">Saldi</li>
                     <li id="uomo">Uomo</li>
-                    <li>Donna</li>
+                    <li id="donna">Donna</li>
                     <li>Nuova Collezione</li>
-                    <li>Bambino</li>
-                    <li>H&B Mood</li>
-                    <li>H&B World</li>
+                    <li id="bambino">Bambino</li>
+                    <li id="hb-mood">H&B Mood</li>
+                    <li id="hb-world">H&B World</li>
                 </ul>
             </div>
             <div class="actions">
@@ -47,8 +49,9 @@
             </div>
         </section>
 
+        <!-- Hover-Menù -->
         <div class="header-hover sale">
-            <div class="uomo">
+            <div>
                 <span>UOMO</span>
                 <ul>
                     <li>Giacche e Giubbotti</li>
@@ -59,7 +62,7 @@
                     <li>Scarpe</li>
                 </ul>
             </div>
-            <div class="donna">
+            <div>
                 <span>DONNA</span>
                 <ul>
                     <li>Top</li>
@@ -68,14 +71,14 @@
                     <li>Scarpe</li>
                 </ul>
             </div>
-            <div class="bambino">
+            <div>
                 <span>BAMBINO</span>
                 <ul>
                     <li>Neonato 0-36 Mesi</li>
                     <li>Junior 12 Mesi - 14 Anni</li>
                 </ul>
             </div>
-            <div class="hb-jeans">
+            <div>
                 <span>H&B JEANS</span>
                 <ul>
                     <li>Top</li>
@@ -135,13 +138,136 @@
                 <img src="https://www.harmontblaine.com/ccstore/v1/images/?source=/file/v853601084879929893/products/20211001_350x250-menu-uomo.jpg&height=350&width=350" alt="image-uomo">
             </div>
         </div>
+
+        <div class="header-hover woman">
+            <div>
+                <span>ABBIGLIAMENTO</span>
+                <ul>
+                    <li>Camicie</li>
+                    <li>Maglieria</li>
+                    <li>Polo</li>
+                    <li>T-Shirt</li>
+                    <li>Gonne</li>
+                    <li>Pantaloni</li>
+                    <li>Giacche e Capispalla</li>
+                </ul>
+            </div>
+            <div>
+                <span>BORSE & ACCESSORI</span>
+                <ul>
+                    <li>Cinture</li>
+                    <li>Sciarpe</li>
+                    <li>Borse e Pelletteria</li>
+                </ul>
+            </div>
+            <div>
+                <span>SCARPE</span>
+                <ul>
+                    <li>Scarpe casual</li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="https://www.harmontblaine.com/ccstore/v1/images/?source=/file/v4566995859922290686/products/20211001_350x250-menu-donna.jpg&height=350&width=350" alt="image-donna">
+            </div>
+        </div>
+
+        <div class="header-hover children">
+            <div>
+                <span>BAMBINO</span>
+                <ul>
+                    <li>Neonato 0-36 Mesi</li>
+                    <li>Junior 12 Mesi - 14 Anni</li>
+                    <li>Peluche</li>
+                </ul>
+            </div>
+            <div>
+                <span>BAMBINA</span>
+                <ul>
+                    <li>Junior 12 Mesi - 14 Anni</li>
+                    <li>Peluche</li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="https://www.harmontblaine.com/ccstore/v1/images/?source=/file/v7396816520047617806/products/20211122_350x250-menu.jpg&height=350&width=350" alt="image-bambino">
+            </div>
+        </div>
+
+        <div class="header-hover mood">
+            <div>
+                <span>H&B MOOD</span>
+                <ul>
+                    <li>Woodland</li>
+                    <li>Eco Adventurers</li>
+                    <li>Essentials</li>
+                    <li>Capsule Ac Milan</li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="https://www.harmontblaine.com/ccstore/v1/images/?source=/file/v6023630711435777379/products/20211001_350x250-menu.jpg&height=350&width=350" alt="image-hb-mood">
+            </div>
+        </div>
+
+        <div class="header-hover world">
+            <div>
+                <span>H&B WORLD</span>
+                <ul>
+                    <li>About</li>
+                    <li>I nostri negozi</li>
+                    <li>News & Eventi</li>
+                    <li>Progetti Speciali</li>
+                    <li>Profilo Aziendale</li>
+                    <li>Harmont&Blaine Magazine</li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="https://www.harmontblaine.com/file/general/20210331_Menu_World.jpg" alt="image-hb-world">
+            </div>
+        </div>
+
+        <!-- Hover-Search -->
+        <div class="header-search">
+            <div>
+                <input type="text" placeholder="immettere qui il testo da ricercare.">
+            </div>
+        </div>
     </header>
-    <main></main>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- Carousel -->
+        <section class="hb-carousel">
+            <div class="slick-carousel">
+                <div>
+                    <img src="https://www.harmontblaine.com/ccstore/v1/images/?source=/file/v2961350892785576844/general/20220121_slider_hbJeans_promo1_v5.jpg&height=1000&width=1680" alt="promo1">
+                    <a class="promo-link one" href="#">acquista ora</a>
+                </div>
+                <div>
+                    <img src="https://www.harmontblaine.com/ccstore/v1/images/?source=/file/v1520040015735006173/general/20211223_bannerHP-sale-desktop.jpg&height=1000&width=1680" alt="promo2">
+                    <a class="promo-link two" href="#">acquista ora</a>
+                </div>
+                <div>
+                    <img src="https://www.harmontblaine.com/ccstore/v1/images/?source=/file/v4111188633523397422/general/20220202_slider_desktop.gif&height=1000&width=1680" alt="promo3">
+                    <a class="promo-link three" href="#">scopri di più</a>
+                </div>
+                <div>
+                    <img src="https://www.harmontblaine.com/ccstore/v1/images/?source=/file/v6046431888767563903/general/20220208_slider_desktop_10920x932.jpg&height=1000&width=1680" alt="promo4">
+                    <a class="promo-link four" href="#">scopri la nuova collezione</a>
+                </div>
+                <div>
+                    <img src="https://www.harmontblaine.com/ccstore/v1/images/?source=/file/v6539031839563816433/general/20220211_slider_desktop_1920x932.jpg&height=1000&width=1680" alt="promo5">
+                    <a class="promo-link five" href="#">scopri il look vintage heritage</a>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer></footer>
 
     <!-- JQUERY -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js' integrity='sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==' crossorigin='anonymous'></script>
     <!-- JS -->
-    <script src="./main.js"></script>
+    <script src="./js/main.js"></script>
+    <!-- SLICK -->
+    <script type="text/javascript" src="./js/slick.min.js"></script>
 </body>
 </html>
