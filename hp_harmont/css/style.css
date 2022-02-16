@@ -346,3 +346,33 @@
     cursor: pointer;
     z-index: 1;
 }
+
+/* Triple Images */
+.hb-triple-images {
+    display: flex;
+    margin: 70px 15px;
+}
+
+.hb-triple-images .image-container {
+    width: calc(100% / 3);
+    padding: 0 15px;
+    position: relative;
+}
+
+.hb-triple-images img {
+    width: 100%;
+}
+
+.hb-triple-images .text {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1c355e;
+    border: 1px solid #fff;
+    padding: 12px 40px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
