@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'icomoonHB';
-  src:  url('fonts/icomoonHB.eot?klnjaj');
-  src:  url('fonts/icomoonHB.eot?klnjaj#iefix') format('embedded-opentype'),
-    url('fonts/icomoonHB.ttf?klnjaj') format('truetype'),
-    url('fonts/icomoonHB.woff?klnjaj') format('woff'),
-    url('fonts/icomoonHB.svg?klnjaj#icomoonHB') format('svg');
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?pkme4d');
+  src:  url('fonts/icomoon.eot?pkme4d#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?pkme4d') format('truetype'),
+    url('fonts/icomoon.woff?pkme4d') format('woff'),
+    url('fonts/icomoon.svg?pkme4d#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -12,7 +12,7 @@
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoonHB' !important;
+  font-family: 'icomoon' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -26,89 +26,95 @@
 }
 
 .icon-bottom:before {
-  content: "\ea44";
+  content: "\e900";
 }
 .icon-left:before {
-  content: "\ea45";
+  content: "\e901";
 }
 .icon-right:before {
-  content: "\ea46";
+  content: "\e902";
 }
 .icon-top:before {
-  content: "\ea47";
+  content: "\e903";
 }
 .icon-customer:before {
-  content: "\ea48";
+  content: "\e904";
 }
 .icon-email:before {
-  content: "\ea49";
+  content: "\e905";
 }
 .icon-facebook:before {
-  content: "\ea4a";
+  content: "\e906";
 }
-.icon-menu2:before {
-  content: "\ea4b";
+.icon-menu:before {
+  content: "\e907";
 }
-.icon-pinterest1:before {
-  content: "\ea4c";
+.icon-pinterest:before {
+  content: "\e908";
 }
-.icon-search1:before {
-  content: "\ea4d";
+.icon-search:before {
+  content: "\e909";
 }
 .icon-shopping:before {
-  content: "\ea4e";
+  content: "\e90a";
 }
 .icon-footerFacebook:before {
-  content: "\ea4f";
+  content: "\e90b";
 }
 .icon-footerInstagram:before {
-  content: "\ea50";
+  content: "\e90c";
 }
 .icon-footerTwitter:before {
-  content: "\ea51";
+  content: "\e90d";
 }
 .icon-footerYoutube:before {
-  content: "\ea52";
+  content: "\e90e";
 }
 .icon-storelocator:before {
-  content: "\ea53";
+  content: "\e90f";
 }
 .icon-wechat:before {
-  content: "\ea54";
+  content: "\e910";
 }
 .icon-whatsapp:before {
-  content: "\ea55";
+  content: "\e911";
 }
 .icon-user:before {
-  content: "\ea56";
+  content: "\e912";
 }
-.icon-close1:before {
-  content: "\ea57";
+.icon-close:before {
+  content: "\e913";
 }
 .icon-grid3:before {
-  content: "\ea58";
+  content: "\e914";
 }
 .icon-grid4:before {
-  content: "\ea59";
+  content: "\e915";
 }
 .icon-book:before {
-  content: "\ea5a";
+  content: "\e916";
 }
-.icon-check1:before {
-  content: "\ea5b";
+.icon-check:before {
+  content: "\e917";
 }
 .icon-return:before {
-  content: "\ea5c";
+  content: "\e918";
 }
 .icon-smile:before {
-  content: "\ea5d";
+  content: "\e919";
 }
 .icon-user-checkout:before {
-  content: "\ea5e";
+  content: "\e91a";
 }
-.icon-play1:before {
-  content: "\ea5f";
+.icon-play:before {
+  content: "\ea15";
 }
 .icon-pause:before {
-  content: "\ea60";
+  content: "\ea16";
+}
+.icon-headphones:before {
+  content: "\e91b";
+}
+.icon-user1:before {
+  content: "\e971";
 }

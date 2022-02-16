@@ -69,19 +69,19 @@ $(document).ready(function() {
     });
 
     // Hover Search
-    $('.fa-magnifying-glass').click(function() {
+    $('.icon-search').click(function() {
         $('.header-search').slideToggle();
     });
 
-    $('.fa-xmark').click(function() {
+    $('.icon-close').click(function() {
         $('.header-search').slideUp();
     })
 
     // Slick Carousel
     $('.slick-carousel').slick({
         arrows: true,
-        prevArrow: '<i class="fa-solid fa-chevron-left"></i>',
-        nextArrow: '<i class="fa-solid fa-chevron-right"></i>',
+        prevArrow: '<i class="icon-left"></i>',
+        nextArrow: '<i class="icon-right"></i>',
         autoplay: true,
         autoplaySpeed: 3000,
     });
@@ -92,7 +92,7 @@ $(document).ready(function() {
         slidesToShow: 4,
         centerPadding: '20px',
         arrows: true,
-        prevArrow: '<i class="fa-solid fa-chevron-left"></i>',
-        nextArrow: '<i class="fa-solid fa-chevron-right"></i>',
+        prevArrow: '<i class="icon-left"></i>',
+        nextArrow: '<i class="icon-right"></i>',
     })
 })
