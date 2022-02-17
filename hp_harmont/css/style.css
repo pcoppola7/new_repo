@@ -378,7 +378,20 @@
 }
 
 /* Video */
-.hb-video .media {
+.hb-video {
+    position: relative;
+}
+
+.hb-video #video {
     width: 100%;
     height: auto;
+}
+
+.hb-video .icon-volume-medium,
+.hb-video .icon-volume-mute2 {
+    position: absolute;
+    bottom: 6%;
+    left: 2%;
+    font-size: 30px;
+    color: #fff;
 }

@@ -95,4 +95,38 @@ $(document).ready(function() {
         prevArrow: '<i class="icon-left"></i>',
         nextArrow: '<i class="icon-right"></i>',
     })
+
+    // Video Play/Pause
+    const video = $('#video');
+
+    $(video).click(function() {
+
+        console.log(video[0].paused)
+
+        if (video[0].paused) {
+            video[0].play();
+        } else {
+            video[0].pause();
+        }
+    })
+
+    // Video Mute on/off
+    $('.icon-test').click(function() {
+        console.log(video[0].muted)
+
+        if($('.icon-test').hasClass('icon-volume-medium')) { 
+
+            $('.icon-test').removeClass('icon-volume-medium')
+            $('.icon-test').addClass('icon-volume-mute2')
+            video[0].muted = true;
+        } else {
+
+            $('.icon-test').removeClass('icon-volume-mute2')
+            $('.icon-test').addClass('icon-volume-medium')
+            video[0].muted = false;
+
+        }
+
+        
+    })
 })
