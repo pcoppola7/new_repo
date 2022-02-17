@@ -376,3 +376,9 @@
     transform: translateX(-50%);
     z-index: 1;
 }
+
+/* Video */
+.hb-video .media {
+    width: 100%;
+    height: auto;
+}
